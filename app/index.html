@@ -3,29 +3,1800 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<title>OptimizedHTML 5</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
-	<meta name="viewport" content="width=device-width">
-	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/dest/preview.jpg">
-	<link rel="stylesheet" href="css/app.min.css">
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="description" content="Startup HTML template OptimizedHTML 5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/dest/preview.jpg">
+    <link rel="stylesheet" href="bootstrap/build/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
 
 </head>
 
-<body>
+<body class="home">
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-in d-flex">
+                <a href="tel:0208 888 8888">Helpline: 0208 888 8888</a>
+                <p class="announcement">Temporary Announcements Shown Here...</p>
+                <p class="header-top-links">
+                    <a href="#">Sign in</a>
+                    <a href="#">Create Account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="header-center-in d-flex">
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="images/dest/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header-search">
+                    <form action="/">
+                        <div class="header-search-in">
+                            <input placeholder="Search" type="search">
+                            <button type="submit">
+                                <svg  xmlns="http://www.w3.org/2000/svg"
+                                     width="24.893" height="29.893" viewBox="0 0 24.893 29.893">
+                                    <g fill="none" stroke="#606060" stroke-width="2">
+                                        <rect width="21.484" height="21.286" rx="10.643" stroke="none"/>
+                                        <rect x="1" y="1" width="19.484" height="19.286" rx="9.643" fill="none"/>
+                                    </g>
+                                    <line x2="7" y2="10" transform="translate(16.5 18.5)" fill="none" stroke="#606060"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="shop-icons d-flex">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30.764" height="33.562"
+                             viewBox="0 0 30.764 33.562">
+                            <g transform="translate(0.281 1.281)">
+                                <circle cx="7.191" cy="7.191" r="7.191"
+                                        transform="translate(7.551 -0.281)" fill="none" stroke="#575757"
+                                        stroke-miterlimit="10" stroke-width="2"/>
+                                <path d="M29.764,37.882A14.382,14.382,0,1,0,1,37.882Z"
+                                      transform="translate(-0.281 -6.601)" fill="none" stroke="#575757"
+                                      stroke-miterlimit="10" stroke-width="2"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38.263" height="33.629"
+                             viewBox="0 0 38.263 33.629">
+                            <path d="M35.79,7.293a9.541,9.541,0,0,0-13.5,0L20.454,9.132,18.615,7.293a9.544,9.544,0,1,0-13.5,13.5l1.839,1.839,13.5,13.5,13.5-13.5L35.79,20.79a9.541,9.541,0,0,0,0-13.5Z"
+                                  transform="translate(-1.323 -3.497)" fill="none" stroke="#575757"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="cart-ico">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="33.5" viewBox="0 0 35 33.5">
+                                <g transform="translate(-0.5 -0.5)">
+                                    <path d="M15,31.5A1.5,1.5,0,1,1,13.5,30,1.5,1.5,0,0,1,15,31.5Z" fill="none"
+                                          stroke="#575757" stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2"/>
+                                    <path d="M31.5,31.5A1.5,1.5,0,1,1,30,30,1.5,1.5,0,0,1,31.5,31.5Z" fill="none"
+                                          stroke="#575757" stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2"/>
+                                    <path d="M1.5,1.5h6l4.02,20.085a3,3,0,0,0,3,2.415H29.1a3,3,0,0,0,3-2.415L34.5,9H9"
+                                          fill="none" stroke="#575757" stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2"/>
+                                </g>
+                            </svg>
+                            <span class="count">0</span>
+                        </div>
+                        <span class="price">£ 0.00</span>
+                    </a>
+                    <a href="#" class="icon-menuopen">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-bottom-in d-flex">
+                <div class="header-menu">
+                    <ul>
+                        <li class="menu-item-has-children"><a href="#">All Categories</a>
+                            <ul id="menu-box-1" class="mega-sub-menu">
+                                <li class="mega-menu-row">
+                                    <ul class="mega-sub-menu">
+                                        <li class="mega-menu-column mega-left-menu-block left-menu-block">
+                                            <div>
+                                                <b>Fruit & Veg</b>
+                                                <ul>
+                                                    <li><a href="#">Fresh Fruits</a></li>
+                                                    <li><a href="#">Fresh Vegetables</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Dairy Products</b>
+                                                <ul>
+                                                    <li><a href="#">Milk</a></li>
+                                                    <li><a href="#">Cheese</a></li>
+                                                    <li><a href="#">Butter</a></li>
+                                                    <li><a href="#">Yoghurt</a></li>
+                                                    <li><a href="#">Cream</a></li>
+                                                </ul>
+                                            </div>
+                                            <div><b>Meat</b>
+                                                <ul>
+                                                    <li><a href="#">Fresh Meat</a></li>
+                                                    <li><a href="#">Poultry</a></li>
+                                                    <li><a href="#">Sausages & Sucuk</a></li>
+                                                    <li><a href="#">Sub-Category</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Frozen</b>
+                                                <ul>
+                                                    <li><a href="#">Frozen Vegetables</a></li>
+                                                    <li><a href="#">Frozen Fruits</a></li>
+                                                    <li><a href="#">Ice Cream</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Bakery & Pastry</b>
+                                                <ul>
+                                                    <li><a href="#">Bread</a></li>
+                                                    <li><a href="#">Simit (Turkish Bagel)</a></li>
+                                                    <li><a href="#">Lavash (Wrap)</a></li>
+                                                    <li><a href="#">Yufka (Filo Pastry)</a></li>
+                                                    <li><a href="#">Pide Bread</a></li>
+                                                    <li><a href="#">Borek</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Food Cupboard</b>
+                                                <ul>
+                                                    <li><a href="#">Breakfast Cereals & Oats</a></li>
+                                                    <li><a href="#">Dried Fruits & Nuts</a></li>
+                                                    <li><a href="#">Jam, Honey & Spreads</a></li>
+                                                    <li><a href="#">Chocolate, Sweets & Gum</a></li>
+                                                    <li><a href="#">Crisps, Snacks & Biscuits</a></li>
+                                                    <li><a href="#">Pasta</a></li>
+                                                    <li><a href="#">Rice, Pulses & Grains</a></li>
+                                                    <li><a href="#">Herbs, Spices & Seasonings</a></li>
+                                                    <li><a href="#">Oil & Vinegar</a></li>
+                                                    <li><a href="#">Sauces & Dressings</a></li>
+                                                    <li><a href="#">Tins, Cans & Packets</a></li>
+                                                    <li><a href="#">Olives</a></li>
+                                                    <li><a href="#">Jarred Goods & Pickles</a></li>
+                                                    <li><a href="#">Home Baking</a></li>
+                                                    <li><a href="#">Desserts</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Drinks</b>
+                                                <ul>
+                                                    <li><a href="#">Tea</a></li>
+                                                    <li><a href="#">Coffee</a></li>
+                                                    <li><a href="#">Hot Chocolate & Sahlep</a></li>
+                                                    <li><a href="#">Soft Drinks & Sodas</a></li>
+                                                    <li><a href="#">Juices & Smoothies</a></li>
+                                                    <li><a href="#">Bottled Water</a></li>
+                                                    <li><a href="#">Energy Drinks</a></li>
+                                                    <li><a href="#">Beer & Cider</a></li>
+                                                    <li><a href="#">Wine & Spirits</a></li>
+                                                    <li><a href="#">Rakı</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Personal Care</b>
+                                                <ul>
+                                                    <li><a href="#">Haircare, Bath & Soaps</a></li>
+                                                    <li><a href="#">Dental Care</a></li>
+                                                    <li><a href="#">Body Care</a></li>
+                                                    <li><a href="#">Hair Removal & Waxing</a></li>
+                                                    <li><a href="#">Shaving & Aftershave</a></li>
+                                                    <li><a href="#">Deodorant & Body Mists</a></li>
+                                                    <li><a href="#">Cologne</a></li>
+                                                    <li><a href="#">Health & Pharmacy</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Household & <br> Cleaning</b>
+                                                <ul>
+                                                    <li><a href="#">Dishwashing</a></li>
+                                                    <li><a href="#">Laundry</a></li>
+                                                    <li><a href="#">Cleaning Products</a></li>
+                                                    <li><a href="#">Tissue & Rolls</a></li>
+                                                    <li><a href="#">General Household</a></li>
+                                                    <li><a href="#">Cling Film / Foils / Food Storage</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Baby & Toddler</b>
+                                                <ul>
+                                                    <li><a href="#">Formulas</a></li>
+                                                    <li><a href="#">Nappies</a></li>
+                                                    <li><a href="#">Skincare</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Homeware & <br>Appliances</b>
+                                                <ul>
+                                                    <li><a href="#">Glassware</a></li>
+                                                    <li><a href="#">Kitchenware</a></li>
+                                                    <li><a href="#">Electric Appliances</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="mega-menu-column mega-right-menu-block right-menu-block">
+                                            <ul class="mega-sub-menu">
+                                                <li class="widget_custom_html">
+                                                    <div class="row no-gutters header-dishes">
+                                                        <div class="dish-card">
+                                                            <a href="#">
+                                                                <img src="images/dest/dish1.jpg" alt="">
+                                                            </a>
+                                                            <a href="#"><b>TURKISH DESSERTS</b></a>
+                                                            <p>World famous Turkish desserts are just a click away.
+                                                                Discover our delicious desserts to indulge in.</p>
+                                                            <a href="#" class="btn btn-white">More in Turkish Desserts</a>
+                                                        </div>
+                                                        <div class="dish-card">
+                                                            <a href="#">
+                                                                <img src="images/dest/dish2.jpg" alt="">
+                                                            </a>
+                                                            <a href="#"> <b>READY MEALS & MEZZES</b></a>
+                                                            <p>Easy & Delicious!
+                                                                Yummy options for any kind of occasion. Discover our
+                                                                wide range of ready meals.</p>
+                                                            <a href="#" class="btn btn-white">More in Ready Meals</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Healthy & Specialist Eating</a>
+                            <ul id="menu-box-2" class="mega-sub-menu">
+                                <li class="mega-menu-row">
+                                    <ul class="mega-sub-menu">
+                                        <li class="mega-menu-column mega-left-menu-block left-menu-block">
+                                            <div>
+                                                <b>Fruit & Veg</b>
+                                                <ul>
+                                                    <li><a href="#">Fresh Fruits</a></li>
+                                                    <li><a href="#">Fresh Vegetables</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Dairy Products</b>
+                                                <ul>
+                                                    <li><a href="#">Milk</a></li>
+                                                    <li><a href="#">Cheese</a></li>
+                                                    <li><a href="#">Butter</a></li>
+                                                    <li><a href="#">Yoghurt</a></li>
+                                                    <li><a href="#">Cream</a></li>
+                                                </ul>
+                                            </div>
+                                            <div><b>Meat</b>
+                                                <ul>
+                                                    <li><a href="#">Fresh Meat</a></li>
+                                                    <li><a href="#">Poultry</a></li>
+                                                    <li><a href="#">Sausages & Sucuk</a></li>
+                                                    <li><a href="#">Sub-Category</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Frozen</b>
+                                                <ul>
+                                                    <li><a href="#">Frozen Vegetables</a></li>
+                                                    <li><a href="#">Frozen Fruits</a></li>
+                                                    <li><a href="#">Ice Cream</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Bakery & Pastry</b>
+                                                <ul>
+                                                    <li><a href="#">Bread</a></li>
+                                                    <li><a href="#">Simit (Turkish Bagel)</a></li>
+                                                    <li><a href="#">Lavash (Wrap)</a></li>
+                                                    <li><a href="#">Yufka (Filo Pastry)</a></li>
+                                                    <li><a href="#">Pide Bread</a></li>
+                                                    <li><a href="#">Borek</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Food Cupboard</b>
+                                                <ul>
+                                                    <li><a href="#">Breakfast Cereals & Oats</a></li>
+                                                    <li><a href="#">Dried Fruits & Nuts</a></li>
+                                                    <li><a href="#">Jam, Honey & Spreads</a></li>
+                                                    <li><a href="#">Chocolate, Sweets & Gum</a></li>
+                                                    <li><a href="#">Crisps, Snacks & Biscuits</a></li>
+                                                    <li><a href="#">Pasta</a></li>
+                                                    <li><a href="#">Rice, Pulses & Grains</a></li>
+                                                    <li><a href="#">Herbs, Spices & Seasonings</a></li>
+                                                    <li><a href="#">Oil & Vinegar</a></li>
+                                                    <li><a href="#">Sauces & Dressings</a></li>
+                                                    <li><a href="#">Tins, Cans & Packets</a></li>
+                                                    <li><a href="#">Olives</a></li>
+                                                    <li><a href="#">Jarred Goods & Pickles</a></li>
+                                                    <li><a href="#">Home Baking</a></li>
+                                                    <li><a href="#">Desserts</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Drinks</b>
+                                                <ul>
+                                                    <li><a href="#">Tea</a></li>
+                                                    <li><a href="#">Coffee</a></li>
+                                                    <li><a href="#">Hot Chocolate & Sahlep</a></li>
+                                                    <li><a href="#">Soft Drinks & Sodas</a></li>
+                                                    <li><a href="#">Juices & Smoothies</a></li>
+                                                    <li><a href="#">Bottled Water</a></li>
+                                                    <li><a href="#">Energy Drinks</a></li>
+                                                    <li><a href="#">Beer & Cider</a></li>
+                                                    <li><a href="#">Wine & Spirits</a></li>
+                                                    <li><a href="#">Rakı</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Personal Care</b>
+                                                <ul>
+                                                    <li><a href="#">Haircare, Bath & Soaps</a></li>
+                                                    <li><a href="#">Dental Care</a></li>
+                                                    <li><a href="#">Body Care</a></li>
+                                                    <li><a href="#">Hair Removal & Waxing</a></li>
+                                                    <li><a href="#">Shaving & Aftershave</a></li>
+                                                    <li><a href="#">Deodorant & Body Mists</a></li>
+                                                    <li><a href="#">Cologne</a></li>
+                                                    <li><a href="#">Health & Pharmacy</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Household & <br> Cleaning</b>
+                                                <ul>
+                                                    <li><a href="#">Dishwashing</a></li>
+                                                    <li><a href="#">Laundry</a></li>
+                                                    <li><a href="#">Cleaning Products</a></li>
+                                                    <li><a href="#">Tissue & Rolls</a></li>
+                                                    <li><a href="#">General Household</a></li>
+                                                    <li><a href="#">Cling Film / Foils / Food Storage</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Baby & Toddler</b>
+                                                <ul>
+                                                    <li><a href="#">Formulas</a></li>
+                                                    <li><a href="#">Nappies</a></li>
+                                                    <li><a href="#">Skincare</a></li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <b>Homeware & <br>Appliances</b>
+                                                <ul>
+                                                    <li><a href="#">Glassware</a></li>
+                                                    <li><a href="#">Kitchenware</a></li>
+                                                    <li><a href="#">Electric Appliances</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="mega-menu-column mega-right-menu-block right-menu-block">
+                                            <ul class="mega-sub-menu">
+                                                <li class="widget_custom_html">
+                                                    <div class="row no-gutters header-dishes">
+                                                        <div class="dish-card">
+                                                            <a href="#">
+                                                                <img src="images/dest/dish1.jpg" alt="">
+                                                            </a>
+                                                            <a href="#"><b>TURKISH DESSERTS</b></a>
+                                                            <p>World famous Turkish desserts are just a click away.
+                                                                Discover our delicious desserts to indulge in.</p>
+                                                            <a href="#" class="btn btn-white">More in Turkish Desserts</a>
+                                                        </div>
+                                                        <div class="dish-card">
+                                                            <a href="#">
+                                                                <img src="images/dest/dish2.jpg" alt="">
+                                                            </a>
+                                                            <a href="#"> <b>READY MEALS & MEZZES</b></a>
+                                                            <p>Easy & Delicious!
+                                                                Yummy options for any kind of occasion. Discover our
+                                                                wide range of ready meals.</p>
+                                                            <a href="#" class="btn btn-white">More in Ready Meals</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Recipes</a></li>
+                    </ul>
+                </div>
+                <p class="message-order">Free Delivery on orders over <br> £50</p>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="body">
+    <section class="home-top">
+        <div class="container">
+            <div class="home-top-in">
+                <div class="home-top-left">
+                    <div class="home-dishes owl-carousel">
+                        <div class="item">
+                            <img src="images/dest/homeslide1.png" alt="">
+                            <div class="slide-text">
+                                <h1>Enjoy your morning <br>
+                                    coffee with these <br>
+                                    Turkish delights</h1>
+                                <a href="#" class="btn">View All</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/homeslide2.png" alt="">
+                            <div class="slide-text">
+                                <h1>Another Text Here</h1>
+                                <a href="#" class="btn">View All</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/dest/homeslide3.png" alt="">
+                            <div class="slide-text">
+                                <h1>Another Text Here</h1>
+                                <a href="#" class="btn">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-top-right">
+                    <div class="home-tbox bg-tbox" style="background-image: url('images/dest/refer_a_friend.jpg');">
+                        <h2>Refer A Friend</h2>
+                        <p>Refer us to your friends and you will both earn vouchers and discounts.
+                            T&C apply.</p>
+                        <a href="#" class="btn">Refer a friend</a>
+                    </div>
+                    <div class="home-tbox" style="background-color: #F60043">
+                        <h2>Can't find what you are
+                            looking for?</h2>
+                        <p>Let us know what is it and let's see if we can sort it out for you.</p>
+                        <a class="btn" href="#">Request a product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="list-advantages">
+        <div class="container">
+            <div class="list-advantages-in row no-gutters">
+                <div class="sl-advantage">
+                    <img src="images/dest/sl1.svg" alt="">
+                    <div class="sl-text">
+                        <h3>NEXT DAY DELIVERY</h3>
+                        <p>When ordered before 11 am</p>
+                    </div>
+                </div>
+                <div class="sl-advantage">
+                    <img src="images/dest/sl2.svg" alt="">
+                    <div class="sl-text">
+                        <h3>Free click & collect</h3>
+                        <p>Our market is based in TW1</p>
+                    </div>
 
-	<!-- CUSTOM HTML -->
+                </div>
+                <div class="sl-advantage">
+                    <img src="images/dest/sl3.svg" alt="">
+                    <div class="sl-text">
+                        <h3>EASY RETURN & EXCHANGE</h3>
+                        <p>Subject to T&C</p>
+                    </div>
 
-	<div class="container" style="max-width: 700px; margin: auto">
+                </div>
+                <div class="sl-advantage">
+                    <img src="images/dest/sl4.svg" alt="">
+                    <div class="sl-text">
+                        <h3>safe & secure payment</h3>
+                        <p>All major cards are accepted</p>
+                    </div>
 
-		<img src="images/dest/preview.jpg" alt="Start HTML5 Template" width="100%"><br><br>
-		<h2>Welcome to startup HTML template OptimizedHTML 5!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reprehenderit nulla alias expedita a qui, pariatur doloremque ipsa fugit laboriosam odio iure recusandae laborum delectus praesentium magni reiciendis voluptatem. Sed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hmespecial-offers mt-80p">
+        <div class="container">
+            <div class="hmespecial-offers-in">
+                <div class="products-listblock-top d-flex">
+                    <h2 class="green">Special Offers</h2>
+                    <div class="list-nav">
+                        <div role="navigation" class="pr-pagination">
+                            <div class="pr-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.828" height="18.828"
+                                     viewBox="0 0 10.828 18.828">
+                                    <path d="M-18.355,5l-8,8,8,8" transform="translate(27.77 -3.586)" fill="none"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="pr-next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.828" height="18.828"
+                                     viewBox="0 0 10.828 18.828">
+                                    <path d="M-18.355,5l-8,8,8,8" transform="translate(27.77 -3.586)" fill="none"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">View All</a>
+                    </div>
+                </div>
+                <div class="hmspecial-offers-list">
+                    <div class="hmspecial-offers-left">
+                        <div class="owl-carousel hmspecial-slider">
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                            <div class="dark-label">Mix & Match</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product1.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bodrum Mixed Pickles & Cauliflower</b>
+                                        <p>Bodrum Karışık Karnıbahar Turşusu</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                            <div class="yellow-label">2 for 1</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product2.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Product Name</b>
+                                        <p>Product Name in Turkish</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product3.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Product Name</b>
+                                        <p>Product Name in Turkish</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="dark-label">Mix & Match</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product4.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bordum Plain Flour 5kg</b>
+                                        <p>Bodrum Un 5kg</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                            <div class="dark-label">Mix & Match</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product1.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bodrum Mixed Pickles & Cauliflower</b>
+                                        <p>Bodrum Karışık Karnıbahar Turşusu</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                            <div class="yellow-label">2 for 1</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product2.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Product Name</b>
+                                        <p>Product Name in Turkish</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product3.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Product Name</b>
+                                        <p>Product Name in Turkish</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
 
-	</div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="dark-label">Mix & Match</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/product4.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bordum Plain Flour 5kg</b>
+                                        <p>Bodrum Un 5kg</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hmspecial-offers-right">
+                        <div class="banner-block" style="background-image: url('images/dest/banner.jpg')">
+                            <h3 class="yellow">Don't miss out on <br>
+                                these deals!</h3>
+                            <div class="banner-text">
+                                <h2>Any 2 for £9</h2>
+                                <p>On selected fresh meat products</p>
+                                <a href="#" class="btn">Discover entire range</a>
+                            </div>
+                            <div class="italic-14">*Offer valid from 01/12/2020 to 31/01/2021 - London only.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fiveproductsslider mt-80p">
+        <div class="container">
+            <div class="fiveproductsslider-in">
+                <div class="products-listblock-top d-flex">
+                    <h2 class="green">Featured Products</h2>
+                    <div class="list-nav">
+                        <div role="navigation" class="pr-pagination">
+                            <div class="pr-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.828" height="18.828"
+                                     viewBox="0 0 10.828 18.828">
+                                    <path d="M-18.355,5l-8,8,8,8" transform="translate(27.77 -3.586)" fill="none"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="pr-next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.828" height="18.828"
+                                     viewBox="0 0 10.828 18.828">
+                                    <path d="M-18.355,5l-8,8,8,8" transform="translate(27.77 -3.586)" fill="none"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">View All</a>
+                    </div>
+                </div>
+                <div class="fiveproductsslider-list">
+                    <div class="owl-carousel hmefeatures-slider">
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="pink-label">SALE</div>
+                                        <div class="dark-label">Mix & Match</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product1.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Bodrum Mixed Pickles & Cauliflower</b>
+                                    <p>Bodrum Karışık Karnıbahar Turşusu</p>
+                                </div>
+                                <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="pink-label">SALE</div>
+                                        <div class="yellow-label">2 for 1</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product2.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Product Name</b>
+                                    <p>Product Name in Turkish</p>
+                                </div>
+                                 <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="pink-label">SALE</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product3.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Product Name</b>
+                                    <p>Product Name in Turkish</p>
+                                </div>
+                                 <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="dark-label">Mix & Match</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product4.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Bordum Plain Flour 5kg</b>
+                                    <p>Bodrum Un 5kg</p>
+                                </div>
+                                <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="pink-label">SALE</div>
+                                        <div class="dark-label">Mix & Match</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product1.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Bodrum Mixed Pickles & Cauliflower</b>
+                                    <p>Bodrum Karışık Karnıbahar Turşusu</p>
+                                </div>
+                                <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="pink-label">SALE</div>
+                                        <div class="yellow-label">2 for 1</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product2.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Product Name</b>
+                                    <p>Product Name in Turkish</p>
+                                </div>
+                                 <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="pink-label">SALE</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product3.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Product Name</b>
+                                    <p>Product Name in Turkish</p>
+                                </div>
+                                 <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-card">
+                                <div class="product-card-top">
+                                    <div class="product-labels">
+                                        <div class="dark-label">Mix & Match</div>
+                                    </div>
+                                    <div>
+                                        <img src="images/dest/favourite.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product-card-thumb">
+                                    <img src="images/dest/product4.jpg" alt="">
+                                </div>
+                                <div class="product-card-cont">
+                                    <b>Bordum Plain Flour 5kg</b>
+                                    <p>Bodrum Un 5kg</p>
+                                </div>
+                                <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                <div class="product-cart-pricebox">
+                                    <div class="product-card-price">
+                                        <div class="sale-price">£1.99</div>
+                                        <div class="old-price">£2.19</div>
+                                    </div>
+                                    <div class="quantity-box">
+                                        <span class="minus-btn">-</span>
+                                        <input type="number" value="1" name="quantity">
+                                        <span class="plus-btn">+</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-green">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="two-banners mt-80p">
+        <div class="container">
+            <div class="two-banners-in row no-gutters">
+                <div class="one-banner" style="background-image: url('images/dest/banner1.jpg')">
+                    <h2>We sure have the right <br>
+                        spice for you</h2>
+                    <p>Discover our wide range of <br>
+                        herbs and spices</p>
+                    <a href="#" class="btn">View all</a>
+                </div>
+                <div class="one-banner" style="background-image: url('images/dest/banner2.jpg')">
+                    <h2>Longing for a glass of <br>
+                        Turkish Tea?</h2>
+                    <p>Look no more! <br>
+                        Choose from our special tea selections.</p>
+                    <a href="#" class="btn">View all</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hmespecial-offers mt-80p">
+        <div class="container">
+            <div class="hmespecial-offers-in">
+                <div class="products-listblock-top d-flex">
+                    <h2 class="green">Best Sellers</h2>
+                    <div class="list-nav">
+                        <div role="navigation" class="pr-pagination">
+                            <div class="pr-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.828" height="18.828"
+                                     viewBox="0 0 10.828 18.828">
+                                    <path d="M-18.355,5l-8,8,8,8" transform="translate(27.77 -3.586)" fill="none"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="pr-next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.828" height="18.828"
+                                     viewBox="0 0 10.828 18.828">
+                                    <path d="M-18.355,5l-8,8,8,8" transform="translate(27.77 -3.586)" fill="none"
+                                          stroke-linecap="round" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">View All</a>
+                    </div>
+                </div>
+                <div class="hmspecial-offers-list">
+                    <div class="hmspecial-offers-left">
+                        <div id="bestsellers" class="owl-carousel hmspecial-slider">
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels"></div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller1.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bodrum Baldo Rice 500g</b>
+                                        <p>Bodrum Baldo Pirinç 500g</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="yellow-label">2 for 1</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller2.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Melis Halloumi Cheese with Mint 200g</b>
+                                        <p>Melis Naneli Hellim Peyniri 200g</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller3.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bodrum Organic Tahini</b>
+                                        <p>Bodrum Organik Tahin</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">Sale</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller4.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bordum Plain Flour 5kg</b>
+                                        <p>Bodrum Un 5kg</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                            <div class="dark-label">Mix & Match</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller1.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bodrum Baldo Rice 500g</b>
+                                        <p>Bodrum Baldo Pirinç 500g</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                            <div class="yellow-label">2 for 1</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller2.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Melis Halloumi Cheese with Mint 200g</b>
+                                        <p>Melis Naneli Hellim Peyniri 200g</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="pink-label">SALE</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller3.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bodrum Organic Tahini</b>
+                                        <p>Bodrum Organik Tahin</p>
+                                    </div>
+                                     <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <div class="product-card-top">
+                                        <div class="product-labels">
+                                            <div class="dark-label">Mix & Match</div>
+                                        </div>
+                                        <div>
+                                            <img src="images/dest/favourite.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-thumb">
+                                        <img src="images/dest/bestseller4.jpg" alt="">
+                                    </div>
+                                    <div class="product-card-cont">
+                                        <b>Bordum Plain Flour 5kg</b>
+                                        <p>Bodrum Un 5kg</p>
+                                    </div>
+                                    <div class="products-deliverystate text-center">
+                                        <span class="red">Restricted Delivery</span>
+                                        <span class="ask-icon">?</span>
+                                        <div class="ask-label">This item is only available for <a href="#">same day
+                                            delivery</a> and
+                                            <a href="#">click & collect.</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-cart-pricebox">
+                                        <div class="product-card-price">
+                                            <div class="sale-price">£1.99</div>
+                                            <div class="old-price">£2.19</div>
+                                        </div>
+                                        <div class="quantity-box">
+                                            <span class="minus-btn">-</span>
+                                            <input type="number" value="1" name="quantity">
+                                            <span class="plus-btn">+</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-green">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hmspecial-offers-right">
+                        <div class="banner-block" style="background-image: url('images/dest/banner-bestsellers.jpg')">
+                            <h3 class="yellow">Don't miss out on <br>
+                                these deals!</h3>
+                            <div class="banner-text">
+                                <h2>Any 2 for £9</h2>
+                                <p>On selected fresh meat products</p>
+                                <a href="#" class="btn">Discover entire range</a>
+                            </div>
+                            <div class="italic-14">*Offer valid from 01/12/2020 to 31/01/2021 - London only.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
-	<script src="js/app.min.js"></script>
+<section class="email-signup">
+    <div class="container">
+        <div class="email-signup-in">
+            <h2>Great things come to those who sign up </h2>
+            <p>Join us to get updates on offers, new <br> products and exclusive discounts.</p>
+            <div class="email-signup-form">
+                <form action="">
+                    <div class="email-signup-formin">
+                        <input placeholder="Enter your e-mail address here" type="email">
+                        <button type="submit" class="btn w-auto">Join now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal modal-postcode">
+    <div class="modal-cont">
+        <button type="button" class="modal-close"> <svg xmlns="http://www.w3.org/2000/svg" width="22.828" height="22.828" viewBox="0 0 22.828 22.828">
+            <g transform="translate(-1406.586 1.414)">
+                <line x2="20" y2="20" transform="translate(1408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                <line x1="20" y2="20" transform="translate(1408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+            </g>
+        </svg>
+        </button>
+        <div class="modal-in">
+            <div class="modal-img">
+                <img src="images/dest/Scooter_huge.svg" alt="">
+            </div>
+            <div class="modal-content">
+                <h2 class="yellow">There's nothing like receiving your <br> grocery
+                    only in a couple of hours.</h2>
+                <p class="white">Let's find out if you are eligible for our same day delivery service.</p>
+                <div class="postcode-form">
+                    <form action="">
+                        <div class="onerow-form postcode-formin d-flex">
+                            <input placeholder="Enter your postcode here" type="text">
+                            <button type="submit" class="btn">Check</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-back"></div>
+</div>
+<div class="modal modal-postcode modal-successpostcode">
+    <div class="modal-cont">
+        <button type="button" class="modal-close"> <svg xmlns="http://www.w3.org/2000/svg" width="22.828" height="22.828" viewBox="0 0 22.828 22.828">
+            <g transform="translate(-1406.586 1.414)">
+                <line x2="20" y2="20" transform="translate(1408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                <line x1="20" y2="20" transform="translate(1408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+            </g>
+        </svg>
+        </button>
+        <div class="modal-in">
+            <div class="modal-img">
+                <svg xmlns="http://www.w3.org/2000/svg" width="203.159" height="125">
+                    <g fill="">
+                        <path d="M93.148 46.791H32.535a2.165 2.165 0 01-2.165-2.165V33.803a8.659 8.659 0 018.659-8.659h54.119a6.494 6.494 0 016.494 6.494v8.659a6.494 6.494 0 01-6.494 6.494zM34.7 42.462h58.448a2.165 2.165 0 002.165-2.165v-8.659a2.165 2.165 0 00-2.165-2.165H39.029a4.329 4.329 0 00-4.329 4.33z"/>
+                        <path d="M141.384 20.553l3.79-2.093 23.912 43.3-3.79 2.093z"/>
+                        <path d="M60.192 101.187h90.919v4.329H60.192z"/>
+                        <path d="M60.676 95.249H2.228a2.165 2.165 0 01-2.169-2.685l3.442-13.789a41.13 41.13 0 0139.965-31.151h49.681a2.165 2.165 0 012.165 2.511l-4.849 28.9a6.494 6.494 0 006.496 7.555h23.423a6.494 6.494 0 006.191-4.5l9.763-30.48-10.545-35.526-7.832-11.755h-11.823V0h12.988a2.165 2.165 0 011.8.974l8.659 12.988a2.164 2.164 0 01.281.584l10.824 36.476a2.165 2.165 0 010 1.277l-10 31.107a10.824 10.824 0 01-10.3 7.512H96.87a10.824 10.824 0 01-10.672-12.6l4.329-26.367H43.466A36.8 36.8 0 007.771 79.826L4.89 90.916h55.786z"/>
+                        <path d="M174.505 125a25.977 25.977 0 1125.977-25.977A25.977 25.977 0 01174.505 125zm0-47.624a21.647 21.647 0 1021.647 21.647 21.647 21.647 0 00-21.647-21.648z"/>
+                        <path d="M174.504 112.011a12.988 12.988 0 1112.988-12.988 12.988 12.988 0 01-12.988 12.988zm0-21.647a8.659 8.659 0 108.659 8.659 8.659 8.659 0 00-8.659-8.66z"/>
+                        <path d="M149.293 21.647h-19.482a2.165 2.165 0 01-2.165-2.165V6.494a2.165 2.165 0 012.165-2.165h19.482v4.329h-17.318v8.659h17.318z"/>
+                        <path d="M36.864 125a25.977 25.977 0 01-24.981-33.056 2.165 2.165 0 012.165-1.581h14.287a2.165 2.165 0 011.732 3.464 8.659 8.659 0 1013.768 0 2.165 2.165 0 011.731-3.464h14.288a2.165 2.165 0 012.165 1.58A25.977 25.977 0 0136.864 125zM15.715 94.693a21.3 21.3 0 00-.455 4.329 21.648 21.648 0 0043.295 0 21.367 21.367 0 00-.455-4.329h-9.005a12.685 12.685 0 01.758 4.329 12.989 12.989 0 11-25.977 0 12.685 12.685 0 01.758-4.329z"/>
+                        <path d="M36.864 112.011a12.988 12.988 0 01-12.988-12.988 12.859 12.859 0 012.663-7.793 2.165 2.165 0 011.731-.866h17.318a2.165 2.165 0 011.732.866 12.858 12.858 0 012.533 7.793 12.988 12.988 0 01-12.989 12.988zm-7.468-17.318a8.464 8.464 0 00-1.19 4.33 8.659 8.659 0 1017.318 0 8.443 8.443 0 00-1.191-4.329z"/>
+                        <path d="M160.048 25.977c-7.014 0-15.153-5.672-15.153-12.989S153.034 0 160.048 0a2.165 2.165 0 012.165 2.165v21.647a2.165 2.165 0 01-2.165 2.165zm-2.165-21.409c-4.329.931-8.659 4.329-8.659 8.421s4.329 7.49 8.659 8.421z"/>
+                        <path d="M134.934 102.012a38.965 38.965 0 0167.652-29.138 2.165 2.165 0 010 2.944l-8.031 8.659-3.169-2.944 6.624-7.1a34.636 34.636 0 00-58.768 27.253z"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="modal-content">
+                <h1 class="green">GOOD NEWS!</h1>
+                <h2 class="white">We can come to you on your order day.</h2>
+                <a class="italic-14" href="#">See full terms & conditions</a>
+                <div class="postcode-form">
+                    <form action="">
+                        <div class="onerow-form postcode-formin d-flex">
+                            <input placeholder="Enter your postcode here" type="text">
+                            <button type="submit" class="btn">Check</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-back"></div>
+</div>
+<div class="modal modal-postcode modal-negativepostcode">
+    <div class="modal-cont">
+        <button type="button" class="modal-close"> <svg xmlns="http://www.w3.org/2000/svg" width="22.828" height="22.828" viewBox="0 0 22.828 22.828">
+            <g transform="translate(-1406.586 1.414)">
+                <line x2="20" y2="20" transform="translate(1408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                <line x1="20" y2="20" transform="translate(1408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+            </g>
+        </svg>
+        </button>
+        <div class="modal-in">
+            <div class="modal-img">
+                <svg xmlns="http://www.w3.org/2000/svg" width="203.159" height="125">
+                    <g fill="">
+                        <path d="M93.148 46.791H32.535a2.165 2.165 0 01-2.165-2.165V33.803a8.659 8.659 0 018.659-8.659h54.119a6.494 6.494 0 016.494 6.494v8.659a6.494 6.494 0 01-6.494 6.494zM34.7 42.462h58.448a2.165 2.165 0 002.165-2.165v-8.659a2.165 2.165 0 00-2.165-2.165H39.029a4.329 4.329 0 00-4.329 4.33z"/>
+                        <path d="M141.384 20.553l3.79-2.093 23.912 43.3-3.79 2.093z"/>
+                        <path d="M60.192 101.187h90.919v4.329H60.192z"/>
+                        <path d="M60.676 95.249H2.228a2.165 2.165 0 01-2.169-2.685l3.442-13.789a41.13 41.13 0 0139.965-31.151h49.681a2.165 2.165 0 012.165 2.511l-4.849 28.9a6.494 6.494 0 006.496 7.555h23.423a6.494 6.494 0 006.191-4.5l9.763-30.48-10.545-35.526-7.832-11.755h-11.823V0h12.988a2.165 2.165 0 011.8.974l8.659 12.988a2.164 2.164 0 01.281.584l10.824 36.476a2.165 2.165 0 010 1.277l-10 31.107a10.824 10.824 0 01-10.3 7.512H96.87a10.824 10.824 0 01-10.672-12.6l4.329-26.367H43.466A36.8 36.8 0 007.771 79.826L4.89 90.916h55.786z"/>
+                        <path d="M174.505 125a25.977 25.977 0 1125.977-25.977A25.977 25.977 0 01174.505 125zm0-47.624a21.647 21.647 0 1021.647 21.647 21.647 21.647 0 00-21.647-21.648z"/>
+                        <path d="M174.504 112.011a12.988 12.988 0 1112.988-12.988 12.988 12.988 0 01-12.988 12.988zm0-21.647a8.659 8.659 0 108.659 8.659 8.659 8.659 0 00-8.659-8.66z"/>
+                        <path d="M149.293 21.647h-19.482a2.165 2.165 0 01-2.165-2.165V6.494a2.165 2.165 0 012.165-2.165h19.482v4.329h-17.318v8.659h17.318z"/>
+                        <path d="M36.864 125a25.977 25.977 0 01-24.981-33.056 2.165 2.165 0 012.165-1.581h14.287a2.165 2.165 0 011.732 3.464 8.659 8.659 0 1013.768 0 2.165 2.165 0 011.731-3.464h14.288a2.165 2.165 0 012.165 1.58A25.977 25.977 0 0136.864 125zM15.715 94.693a21.3 21.3 0 00-.455 4.329 21.648 21.648 0 0043.295 0 21.367 21.367 0 00-.455-4.329h-9.005a12.685 12.685 0 01.758 4.329 12.989 12.989 0 11-25.977 0 12.685 12.685 0 01.758-4.329z"/>
+                        <path d="M36.864 112.011a12.988 12.988 0 01-12.988-12.988 12.859 12.859 0 012.663-7.793 2.165 2.165 0 011.731-.866h17.318a2.165 2.165 0 011.732.866 12.858 12.858 0 012.533 7.793 12.988 12.988 0 01-12.989 12.988zm-7.468-17.318a8.464 8.464 0 00-1.19 4.33 8.659 8.659 0 1017.318 0 8.443 8.443 0 00-1.191-4.329z"/>
+                        <path d="M160.048 25.977c-7.014 0-15.153-5.672-15.153-12.989S153.034 0 160.048 0a2.165 2.165 0 012.165 2.165v21.647a2.165 2.165 0 01-2.165 2.165zm-2.165-21.409c-4.329.931-8.659 4.329-8.659 8.421s4.329 7.49 8.659 8.421z"/>
+                        <path d="M134.934 102.012a38.965 38.965 0 0167.652-29.138 2.165 2.165 0 010 2.944l-8.031 8.659-3.169-2.944 6.624-7.1a34.636 34.636 0 00-58.768 27.253z"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="modal-content">
+                <h1 class="yellow">OH NO!</h1>
+                <h2 class="white">Sorry about that, we can't come to you on the same day just yet.</h2>
+                <div class="postcode-form">
+                    <form action="">
+                        <div class="onerow-form postcode-formin d-flex">
+                            <input placeholder="Enter your postcode here" type="text">
+                            <button type="submit" class="btn">Check</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-back"></div>
+</div>
+
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-top-in row no-gutters">
+                <div class="footer-about">
+                    <h3 class="yellow">About AZEN-e</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus elit et finibus convallis.
+                        Fusce dictum auctor odio vel porttitor. Phasellus faucibus elementum neque, quis consequat ipsum
+                        euismod eget. </p>
+                </div>
+                <div class="footer-top-right">
+                    <div>
+                        <h3 class="yellow">CONTACT</h3>
+                        <p>103 - 109 Heath Road <br>
+                            Twickenham <br>
+                            TW1 4AZ <br>
+                            London</p>
+                        <p><a href="tel:0208 888 8888">0208 888 8888</a></p>
+                        <p><a href="mailto:info@azene.co.uk">info@azene.co.uk</a></p>
+                    </div>
+                    <div>
+                        <h3 class="yellow">WEB SITE</h3>
+                        <ul>
+                            <li><a href="#">Shop All Categories</a></li>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Delivery Details</a></li>
+                            <li><a href="#">Return & Exchange</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="#">Track My Order</a></li>
+                            <li><a href="#">Request a Product</a></li>
+                            <li><a href="#">Refer a Friend</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-in row no-gutters">
+                <p>©2020 AZEN-e. All Rights Reserved. <br>
+                    Designed by Overmind Design Studio.</p>
+                <img src="images/dest/paymenticons.png" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/app.min.js"></script>
 
 </body>
 </html>
