@@ -4,4 +4,4 @@
 /**/*.DS_Store
 /**/package-lock.json
 app/images/src
-.idea
+.idea/*.xml

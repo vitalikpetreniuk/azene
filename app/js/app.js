@@ -208,3 +208,14 @@ $('.modal-close, .modal').on('click', function (e) {
 $('body').on('click', function (e) {
     console.log(e.target);
 })
+
+$('.cart-ico').on('click', function (e) {
+    e.preventDefault();
+    $('.cartsidebar').addClass('open');
+    $('html').addClass('no-scroll');
+    return false;
+})
+$('.cartsidebar-close').on('click', function () {
+    $('.cartsidebar').removeClass('open');
+    $('html').removeClass('no-scroll')
+})
