@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a408629-bfd6-4646-a323-a4fe5e6786d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/images/dest/profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dest/sl1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dest/sl2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dest/sl3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dest/sl4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/dest/trash-alt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/category.html" afterDir="false" />
@@ -18,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/myprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/myprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_config.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/single-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/subcategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/subcategory.html" afterDir="false" />
@@ -33,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1lKairBLQYWB4IBqgC6JPADwL7a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -48,7 +47,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/dest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\azene.verstka\app\images\dest" />
       <recent name="E:\OSPanel\domains\azene.verstka\app\js" />
     </key>
   </component>
@@ -112,7 +112,16 @@
       <workItem from="1608553194458" duration="13023000" />
       <workItem from="1608566459184" duration="402000" />
       <workItem from="1608627189510" duration="75000" />
-      <workItem from="1608628648963" duration="11831000" />
+      <workItem from="1608628648963" duration="12151000" />
+      <workItem from="1608796228311" duration="2433000" />
+      <workItem from="1608803388257" duration="3128000" />
+      <workItem from="1608818477936" duration="4198000" />
+      <workItem from="1608890847563" duration="3575000" />
+      <workItem from="1609139834381" duration="11119000" />
+      <workItem from="1609165997635" duration="2993000" />
+      <workItem from="1609226805417" duration="14176000" />
+      <workItem from="1609312552475" duration="12685000" />
+      <workItem from="1609399045132" duration="9142000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608566724909</created>
@@ -121,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608566724909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version with cart sidebar">
+      <created>1608644985972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608644985972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
