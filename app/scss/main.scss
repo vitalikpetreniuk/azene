@@ -7,6 +7,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+.predictive_results ul li .rs_name {
+  color: $green !important;
+}
+
 div.star-rating {
   span::before {
     color: $green;
@@ -15,6 +19,7 @@ div.star-rating {
 
 .woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments {
   color: #fff;
+  background: $green;
   padding: 10px;
 
   a {
@@ -38,6 +43,7 @@ div.star-rating {
 
   p {
     background: none;
+    color: $dhrey;
     font-size: 20px;
     text-align: center;
   }
@@ -154,21 +160,21 @@ button {
 }
 
 .red-roundalert {
-  background: $red;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 32px 29px;
-  text-align: center;
+  //background: $red;
+  //color: #fff;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //font-size: 18px;
+  //font-weight: 500;
+  //padding: 32px 29px;
+  //text-align: center;
   top: -20px;
-  height: auto;
-  text-transform: uppercase;
+  //height: auto;
+  //text-transform: uppercase;
   position: absolute;
   right: 0;
-  border-radius: 50%;
+  //border-radius: 50%;
 }
 
 ::placeholder {
@@ -493,6 +499,10 @@ input[type=number] {
     text-transform: uppercase;
   }
 
+  h2 {
+    color: #fff;
+  }
+
   .btn {
     width: 100%;
     margin-top: 44px;
@@ -567,6 +577,9 @@ input[type=number] {
   .container {
     max-width: 1170px;
   }
+  .predictive_results {
+    min-width: 396px;
+  }
 }
 
 @media (min-width: 992.1px) and (max-width: 1200px) {
@@ -628,7 +641,7 @@ header {
   position: absolute;
   background: #fff;
   z-index: 10;
-  width: 100%;
+  width: 100vw;
   transition: .3s;
 
   .header-top {
@@ -674,6 +687,12 @@ header {
     padding: 28px 0 35px;
     transition: .15s;
 
+    .header-logo {
+      img {
+        max-width: 158px;
+      }
+    }
+
     .header-center-in {
       justify-content: space-between;
       align-items: center;
@@ -697,7 +716,7 @@ header {
         }
 
         .header-search-in {
-          padding: 6px 10px;
+          //padding: 6px 10px;
           border: 1px solid #575757;
           min-width: 400px;
 
@@ -718,6 +737,7 @@ header {
         @at-root .cart-ico {
           display: flex;
           align-items: flex-end;
+          cursor: pointer;
 
           div {
             .count {
@@ -728,6 +748,8 @@ header {
               color: #fff;
               line-height: 25px;
               text-align: center;
+              min-width: 25px;
+              min-height: 25px;
               transform: translate(-11px, -10px);
             }
           }
@@ -939,7 +961,7 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
 
     .header-top {
       display: none;
@@ -955,12 +977,6 @@ header {
             }
           }
 
-        }
-      }
-
-      .message-order {
-        br {
-          display: none;
         }
       }
     }
@@ -1248,7 +1264,7 @@ h3 {
 
 .product-card {
   padding: 10px 18px 20px 20px;
-  border: .5px solid #423E39;
+  border: 1px solid #423E39;
 
   .product-card-top {
     display: flex;
@@ -1282,9 +1298,9 @@ h3 {
       }
     }
 
-    img {
-      max-height: 20px;
-      width: auto;
+    .product-like {
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -1294,6 +1310,7 @@ h3 {
 
     img {
       width: auto;
+      max-height: 170px;
       margin: 0 auto;
       max-width: 100%;
     }
@@ -1314,16 +1331,6 @@ h3 {
       margin-bottom: 0;
     }
   }
-
-  //.product-star-ratings {
-  //  margin-top: 7px;
-  //  min-height: 15px;
-  //
-  //  img {
-  //    width: auto;
-  //    margin: 0 auto;
-  //  }
-  //}
 
   @at-root .products-deliverystate {
     font-size: 14px;
@@ -1393,6 +1400,10 @@ h3 {
   .btn {
     width: 100%;
     margin-top: 10px;
+  }
+
+  .added_to_cart.wc-forward {
+    display: none;
   }
 }
 
@@ -1712,6 +1723,31 @@ h3 {
       .tabs-cont-item {
         .btn {
           margin-top: 40px;
+        }
+
+        .delivery-tab-in {
+          .delivery-tab-row {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: 33% 62%;
+
+            .delivery-tab-left {
+              display: flex;
+
+              div {
+                min-width: 50px;
+              }
+
+              b {
+                padding-left: 24px;
+                display: block;
+              }
+            }
+
+            & + .delivery-tab-row {
+              margin-top: 30px;
+            }
+          }
         }
 
         &:not(.active) {
@@ -2035,6 +2071,10 @@ h3 {
   .shop-cont-right {
     flex-basis: 473px;
 
+    .cart_totals {
+      margin-top: 5px;
+    }
+
     .grey-cart {
       background: rgba(0, 0, 0, .05);
       padding: 30px 30px 20px 31px;
@@ -2079,6 +2119,10 @@ h3 {
             margin-top: 13px;
             border: 1px solid $red;
           }
+        }
+
+        .woocommerce-shipping-destination {
+          display: none;
         }
 
         .rowng {
@@ -2335,6 +2379,17 @@ h3 {
   transition: 0.2s;
   opacity: 0;
   visibility: hidden;
+
+  .cart-ico {
+    .price {
+      display: none;
+    }
+  }
+
+  .woocommerce-mini-cart__empty-message {
+    text-align: center;
+    margin-top: 15px;
+  }
 }
 
 .cartsidebar.open {
@@ -2442,6 +2497,11 @@ h3 {
 
         .cartprod-img {
           max-width: 80px;
+          max-height: 80px;
+
+          img {
+            height: auto;
+          }
         }
 
         .cartprod-right {
@@ -2560,37 +2620,34 @@ footer {
 }
 
 body {
+  overflow-x: hidden;
+
   &:not(.home) {
     .email-signup {
       margin-top: 150px;
     }
   }
 
-  .body {
-    position: relative;
-
-    &::after {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      content: '';
-      transition: .3s;
-      bottom: 0;
-      z-index: 1;
-      pointer-events: none;
-    }
+  &::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: '';
+    transition: .3s;
+    bottom: 0;
+    pointer-events: none;
+    min-height: 100vh;
+    min-width: 100vh;
   }
 }
 
 body.dark-bg {
-  .body {
-    position: relative;
+  position: relative;
 
-    &::after {
-      pointer-events: all;
-      background: rgba(0, 0, 0, .7);
-    }
+  &::after {
+    pointer-events: all;
+    background: rgba(0, 0, 0, .7);
   }
 }
 
@@ -2647,6 +2704,11 @@ body.dark-bg {
       }
     }
   }
+}
+
+.login-basic {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1441px) {
@@ -3013,10 +3075,10 @@ body.dark-bg {
       max-width: 20px;
     }
   }
-  .red-roundalert {
-    font-size: 14px;
-    padding: 19px 17px;
-  }
+  //.red-roundalert {
+  //  font-size: 14px;
+  //  padding: 19px 17px;
+  //}
   body {
     &:not(.home) {
       .email-signup {
@@ -3047,6 +3109,8 @@ body.dark-bg {
           @at-root .cart-ico {
             div .count {
               padding: 0 6px;
+              min-width: 20px;
+              min-height: 20px;
               line-height: 20px;
               font-size: 13px;
             }
@@ -3164,10 +3228,6 @@ body.dark-bg {
               display: none;
             }
           }
-        }
-
-        .message-order {
-          display: none;
         }
       }
     }
@@ -3545,6 +3605,20 @@ body.dark-bg {
           .btn {
             margin-top: 20px;
           }
+
+          .delivery-tab-in {
+            .delivery-tab-row {
+              display: block;
+
+              .delivery-tab-left {
+                align-items: center;
+              }
+
+              .delivery-tab-right {
+                margin-top: 20px;
+              }
+            }
+          }
         }
       }
     }
@@ -3752,6 +3826,7 @@ body.dark-bg {
 
         .red-roundalert {
           display: block;
+          max-width: 100px;
         }
 
         .sproduct-slider {
@@ -3850,6 +3925,7 @@ body.dark-bg {
           .coupon input[name=coupon_code] {
             max-width: calc(100% - 125px);
           }
+
           #shipping_method {
             li + li {
               margin-top: 9px;
@@ -4176,9 +4252,9 @@ body.dark-bg {
 }
 
 @media (max-width: 420px) {
-  .red-roundalert {
-    font-size: 11px;
-  }
+  //.red-roundalert {
+  //  font-size: 11px;
+  //}
   .sproduct {
     .sproduct-top {
       .sproduct-topleft {

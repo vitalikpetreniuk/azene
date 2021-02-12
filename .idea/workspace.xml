@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a408629-bfd6-4646-a323-a4fe5e6786d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dest/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/myprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/myprofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_config.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/single-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/subcategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/subcategory.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/dest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\azene.verstka\app\images\src" />
       <recent name="E:\OSPanel\domains\azene.verstka\app\images\dest" />
       <recent name="E:\OSPanel\domains\azene.verstka\app\js" />
     </key>
@@ -121,7 +117,17 @@
       <workItem from="1609165997635" duration="2993000" />
       <workItem from="1609226805417" duration="14176000" />
       <workItem from="1609312552475" duration="12685000" />
-      <workItem from="1609399045132" duration="9142000" />
+      <workItem from="1609399045132" duration="10605000" />
+      <workItem from="1610893774102" duration="559000" />
+      <workItem from="1611327779555" duration="685000" />
+      <workItem from="1612872343415" duration="4226000" />
+      <workItem from="1612879965117" duration="3886000" />
+      <workItem from="1612891438641" duration="11000" />
+      <workItem from="1612960930017" duration="2532000" />
+      <workItem from="1613027454619" duration="1467000" />
+      <workItem from="1613057182220" duration="120000" />
+      <workItem from="1613057587786" duration="3846000" />
+      <workItem from="1613114256425" duration="10342000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608566724909</created>
@@ -137,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608644985972</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make layout closer to real site, update css and js">
+      <created>1609413208139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609413208139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +174,7 @@
     </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="Version with cart sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version with cart sidebar" />
+    <MESSAGE value="make layout closer to real site, update css and js" />
+    <option name="LAST_COMMIT_MESSAGE" value="make layout closer to real site, update css and js" />
   </component>
 </project>

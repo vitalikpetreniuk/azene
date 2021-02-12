@@ -15,6 +15,7 @@ jQuery(function ($) {
         dots: false,
         items: 4,
         margin: 16,
+        mouseDrag: false,
         responsive: {
             1441: {
                 items: 4
@@ -38,6 +39,7 @@ jQuery(function ($) {
         dots: false,
         margin: 16,
         items: 2,
+        mouseDrag: false,
         responsive: {
             1441: {
                 items: 5
