@@ -687,6 +687,16 @@ header {
     padding: 28px 0 35px;
     transition: .15s;
 
+    .wc_ps_nav_right {
+
+      .wc_ps_nav_submit {
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 40px;
+        background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='24.893' height='29.893' viewBox='0 0 24.893 29.893'%3E%3Cg fill='none' stroke='%23606060' stroke-width='2'%3E%3Crect width='21.484' height='21.286' rx='10.643' stroke='none'/%3E%3Crect x='1' y='1' width='19.484' height='19.286' rx='9.643' fill='none'/%3E%3C/g%3E%3Cline x2='7' y2='10' transform='translate(16.5 18.5)' fill='none' stroke='%23606060' stroke-linecap='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+      }
+    }
+
     .header-logo {
       img {
         max-width: 158px;
@@ -1672,6 +1682,10 @@ h3 {
           width: auto;
         }
       }
+
+      form.cart {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -1832,6 +1846,10 @@ h3 {
         }
       }
 
+      .nav-back {
+        display: none;
+      }
+
       .filter-right {
         .multiselect-native-select .btn-group {
           width: 180px;
@@ -1843,7 +1861,7 @@ h3 {
       margin-top: 20px;
       align-items: center;
 
-      div {
+      .selected_filter {
         background: #fff;
         margin-top: 10px;
         vertical-align: middle;
@@ -1862,10 +1880,17 @@ h3 {
       }
 
       #clearfilters {
-        font-weight: 600;
-        color: $dhrey;
-        margin-top: 10px;
-        text-decoration: underline;
+        .button {
+          background: 0 0;
+          font-weight: 600;
+          color: $dhrey;
+          padding: 0;
+          margin-top: 10px;
+          text-decoration: underline;
+        }
+        &>div {
+          display: block !important;
+        }
       }
     }
   }
