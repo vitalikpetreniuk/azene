@@ -19,12 +19,20 @@ div.star-rating {
 
 .woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments {
   color: #fff;
+  border-top-color: $yellow;
   background: $green;
-  padding: 10px;
+
+  &::before {
+    color: #fff;
+  }
+  //padding: 10px;
 
   a {
     color: #fff;
     margin-right: 10px;
+    &:hover {
+      color: #fff;
+    }
   }
 }
 
@@ -34,9 +42,9 @@ div.star-rating {
   }
 }
 
-.woocommerce-info, .woocommerce-noreviews, p.no-comments {
-  background: none;
-}
+//.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+//  background: none;
+//}
 
 .shop-not-found {
   padding: 30px 0;
@@ -148,14 +156,22 @@ button {
     margin-left: 10px;
   }
 }
-
-.remove {
+.woocommerce a.remove {
+  display: block;
+  height: initial;
+  width: initial;
+  text-align: initial;
+  line-height: 1;
+  border-radius: initial;
+  color: $dhrey !important;
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline;
 
   &:hover {
     text-decoration: underline;
+    background: initial;
+    color: $green !important;
   }
 }
 
@@ -1461,6 +1477,14 @@ h3 {
         margin-top: 30px;
         justify-content: space-between;
 
+        .wpcf7-response-output {
+          width: stretch;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+
         & > p {
           max-width: 230px;
         }
@@ -1851,6 +1875,13 @@ h3 {
       }
 
       .filter-right {
+        b {
+          line-height: 38px;
+        }
+
+        .woocommerce-ordering {
+          margin: 0;
+        }
         .multiselect-native-select .btn-group {
           width: 180px;
         }
@@ -1871,6 +1902,7 @@ h3 {
         a {
           display: inline-block;
           margin-left: 5px;
+          cursor: pointer;
           vertical-align: middle;
 
           svg {
@@ -2093,7 +2125,7 @@ h3 {
     }
   }
 
-  .shop-cont-right {
+  @at-root .shop-cont-right {
     flex-basis: 473px;
 
     .cart_totals {
@@ -2647,6 +2679,12 @@ footer {
 body {
   overflow-x: hidden;
 
+  &.woocommerce-lost-password {
+    .woocommerce-form-row.woocommerce-form-row--first {
+      width: 100%;
+    }
+  }
+
   &:not(.home) {
     .email-signup {
       margin-top: 150px;
@@ -2734,6 +2772,15 @@ body.dark-bg {
 .login-basic {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.woocommerce-checkout {
+  main {
+    padding-top: 30px;
+    .woocommerce-shipping-fields {
+      padding-top: 20px;
+    }
+  }
 }
 
 @media (max-width: 1441px) {
@@ -2831,7 +2878,7 @@ body.dark-bg {
     }
   }
   .shop-cont-two {
-    .shop-cont-right {
+    @at-root .shop-cont-right {
       flex-basis: 400px;
     }
   }
@@ -2852,7 +2899,7 @@ body.dark-bg {
     }
   }
   .shop-cont-two {
-    .shop-cont-right {
+    @at-root .shop-cont-right {
       .grey-cart {
         padding: 18px;
       }
@@ -3429,7 +3476,7 @@ body.dark-bg {
       flex-basis: 100%;
     }
 
-    .shop-cont-right {
+    @at-root .shop-cont-right {
       margin-top: 20px;
       flex-basis: 100%;
     }
@@ -3944,7 +3991,7 @@ body.dark-bg {
     }
   }
   .shop-cont-two {
-    .shop-cont-right {
+    @at-root .shop-cont-right {
       .grey-cart {
         .grey-cart-cont {
           .coupon input[name=coupon_code] {
