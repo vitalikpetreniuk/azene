@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a408629-bfd6-4646-a323-a4fe5e6786d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/images/src/firstslide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/refer_a_friend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/header1441.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/header576.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/headr1200.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/myprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/myprofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +139,14 @@
       <workItem from="1613502693264" duration="741000" />
       <workItem from="1613545867207" duration="7175000" />
       <workItem from="1613635172605" duration="9000" />
-      <workItem from="1613653319813" duration="3302000" />
+      <workItem from="1613653319813" duration="4015000" />
+      <workItem from="1613728007815" duration="4467000" />
+      <workItem from="1613762754787" duration="1867000" />
+      <workItem from="1613808363083" duration="52000" />
+      <workItem from="1613980105226" duration="668000" />
+      <workItem from="1614010053954" duration="884000" />
+      <workItem from="1614084602751" duration="5924000" />
+      <workItem from="1614106435425" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608566724909</created>
@@ -165,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613145827520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update css">
+      <created>1613669130734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613669130734</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +209,7 @@
     <MESSAGE value="Version with cart sidebar" />
     <MESSAGE value="make layout closer to real site, update css and js" />
     <MESSAGE value="update styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="update styles" />
+    <MESSAGE value="Update css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update css" />
   </component>
 </project>

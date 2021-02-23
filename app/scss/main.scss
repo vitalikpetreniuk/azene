@@ -7,6 +7,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+.woocommerce-form-login+.btn {
+  padding: 0 10px;
+}
+
 .predictive_results ul li .rs_name {
   color: $green !important;
 }
@@ -925,6 +929,29 @@ header {
               }
             }
 
+            &.mega-menu-megamenu>ul {
+                padding: 25px 38px 110px;
+                .left-cat-block {
+                  max-width: 165px;
+                  p {
+                    font-size: 14px;
+                    margin-top: 18px;
+                    line-height: 1.5;
+                    font-weight: 500;
+                  }
+                }
+                .right-cat-block {
+                  .fivecats-blocks {
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    gap: 0 16px;
+                    .dish-card .btn {
+                      margin-top: 25px;
+                    }
+                  }
+                }
+            }
+
             &.mega-menu-item-has-children {
               & > a {
                 padding-right: 12px;
@@ -1090,6 +1117,18 @@ h3 {
     }
   }
 
+  &.btn-revgreen {
+    color: $green;
+    font-weight: 500;
+    border-color: $green;
+    background: transparent;
+
+    &:hover {
+      color: #fff;
+      background: $green;
+    }
+  }
+
   &.btn-white {
     background: #fff;
     color: $dhrey;
@@ -1135,12 +1174,19 @@ h3 {
         p {
           color: #fff;
           margin-bottom: 40px;
+          max-width: 93%;
         }
 
-        &.bg-tbox {
-          background-color: rgba(0, 0, 0, 0.4);
-          background-blend-mode: color;
+        &:not(.bg-tbox) {
+          .btn:not(:hover) {
+            background: transparent;
+          }
         }
+
+        //&.bg-tbox {
+        //  background-color: rgba(0, 0, 0, 0.4);
+        //  background-blend-mode: color;
+        //}
 
         & + .home-tbox {
           margin-top: 16px;
@@ -1203,8 +1249,22 @@ h3 {
       .slide-text {
         position: absolute;
         top: 50%;
-        right: 76px;
+        left: 110px;
         transform: translateY(-50%);
+        color: #fff;
+
+        h1 {
+          margin-bottom: 20px;
+          span {
+            color: $yellow;
+          }
+        }
+
+        p {
+          font-size: 18px;
+          white-space: pre-line;
+          font-weight: 600;
+        }
 
         .btn {
           margin-top: 40px;
@@ -1436,6 +1496,7 @@ h3 {
 .dish-card {
   img {
     display: block;
+    max-width: 100%;
   }
 
   b {
@@ -1486,7 +1547,7 @@ h3 {
         }
 
         & > p {
-          max-width: 230px;
+          max-width: 225px;
         }
 
         .one-banner-form {
@@ -1766,6 +1827,7 @@ h3 {
         .delivery-tab-in {
           .delivery-tab-row {
             display: grid;
+            /* autoprefixer: ignore next */
             justify-content: space-between;
             grid-template-columns: 33% 62%;
 
@@ -2198,7 +2260,7 @@ h3 {
           margin-top: 30px;
 
           input[name=coupon_code] {
-            max-width: calc(100% - 142px);
+            max-width: calc(100% - 147px);
           }
 
           input, .btn {
@@ -2587,7 +2649,7 @@ h3 {
               margin-left: 13px;
               cursor: pointer;
 
-              svg {
+              img, svg {
                 fill: $dhrey;
                 width: 16px;
               }
@@ -2711,6 +2773,7 @@ body.dark-bg {
   &::after {
     pointer-events: all;
     background: rgba(0, 0, 0, .7);
+    z-index: 1;
   }
 }
 
@@ -2788,6 +2851,7 @@ body.dark-bg {
     .home-top-in {
       .home-dishes {
         .slide-text {
+          left: 45px;
           right: 45px;
         }
       }
@@ -2806,6 +2870,7 @@ body.dark-bg {
   .list-advantages .sl-advantage {
     padding: 9px 10px 20px 10px;
   }
+  @import "blocks/header/header1441";
   .banner-block {
     padding: 10px;
   }
@@ -2843,7 +2908,7 @@ body.dark-bg {
       .one-banner {
         .one-banner-row {
           .one-banner-form {
-            flex-basis: 260px;
+            flex-basis: 250px;
           }
         }
       }
@@ -2908,15 +2973,7 @@ body.dark-bg {
 }
 
 @media (max-width: 1200px) {
-  header {
-    .header-bottom {
-      .header-bottom-in {
-        .message-order {
-          display: none;
-        }
-      }
-    }
-  }
+  @import "blocks/header/headr1200";
   .home-top {
     .home-top-in {
       display: block;
@@ -3558,6 +3615,9 @@ body.dark-bg {
           .btn {
             margin-top: 19px;
           }
+          p {
+            font-size: 15px;
+          }
         }
       }
 
@@ -3744,6 +3804,10 @@ body.dark-bg {
           margin-top: 20px;
           text-align: center;
 
+          .btn {
+            width: 120px;
+          }
+
           .postcode-form {
             .onerow-form {
               margin-left: auto;
@@ -3777,89 +3841,7 @@ body.dark-bg {
       }
     }
   }
-  header {
-    .header-center {
-      padding: 15px 0 25px;
-
-      .header-logo {
-        img {
-          max-width: 110px;
-        }
-      }
-    }
-
-    .header-top {
-      .header-top-in {
-        flex-direction: column;
-
-        .header-top-links {
-          margin-top: 5px;
-        }
-      }
-    }
-
-    .header-bottom {
-      .header-bottom-in {
-        .header-menu {
-          max-height: calc(100vh - 173px);
-
-          #mega-menu-wrap-primary_menu > ul > li.mega-menu-megamenu > ul .left-menu-block {
-            column-count: 1;
-            width: 100%;
-
-            & > ul > li {
-              margin: 0 auto;
-
-              & + li {
-                margin-top: 15px;
-              }
-            }
-
-            ul {
-              width: 100%;
-            }
-          }
-
-          #mega-menu-wrap-primary_menu > ul > li + li {
-            margin-top: 0;
-          }
-
-          .mega-menu-item-has-children {
-            & > .mega-sub-menu {
-              padding: 10px 0;
-            }
-
-            & > .mega-sub-menu {
-              .mega-menu-row > .mega-sub-menu {
-                align-items: center;
-              }
-
-              .left-menu-block {
-                div {
-                  width: 100%;
-
-                  & + div {
-                    margin-top: 15px;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    &.fixed {
-      .header-bottom {
-        .header-bottom-in {
-          .header-menu {
-            max-height: calc(100vh - 81px);
-          }
-        }
-      }
-    }
-
-  }
+  @import "blocks/header/header576";
   .email-signup {
     margin-top: 30px;
     padding: 33px 0 70px;
@@ -4163,6 +4145,7 @@ body.dark-bg {
     .home-top-in {
       .home-dishes {
         .slide-text {
+          left: 30px;
           right: 30px;
         }
 

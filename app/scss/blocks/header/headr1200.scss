@@ -1,0 +1,27 @@
+header {
+  .header-bottom {
+    .header-bottom-in {
+      .message-order {
+        display: none;
+      }
+
+      .header-menu {
+        #mega-menu-wrap-primary_menu > ul > li.mega-menu-megamenu > ul {
+          padding: 25px 0;
+          .right-cat-block {
+            width: 100%;
+            .fivecats-blocks {
+              margin: 0 auto;
+              /* autoprefixer: ignore next */
+              grid-gap: 16px;
+              /* autoprefixer: ignore next */
+              grid-template-columns: repeat(auto-fit, 220px);
+              /* autoprefixer: ignore next */
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
