@@ -10,8 +10,10 @@ $poppins: "Poppins";
 
 $yellow: #ffb917;
 $red: #F60043;
-$green: #6ec200;
+$green: rgb(110, 194, 0);
 $dhrey: #423E39;
+
+//rgb(87, 87, 87)
 
 // Bootstrap compatible gutter variable => $gutter
 $grid-gutter-width: 30px;
@@ -48,7 +50,7 @@ $gutter: $grid-gutter-width;
 }
 
 ::selection {
-	background-color: $accent;
+	background-color:#757575;
 	color: #fff;
 }
 

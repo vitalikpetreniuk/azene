@@ -1,0 +1,27 @@
+.woocommerce-checkout {
+  .woocommerce-form-coupon-toggle + .grey-cart {
+    margin-bottom: 30px;
+  }
+
+  main {
+    padding-top: 30px;
+
+    .woocommerce-shipping-fields {
+      padding-top: 20px;
+    }
+  }
+}
+
+.wpmc-mx80 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.payment-active {
+  .wpmc-nav-wrapper {
+    justify-content: flex-start;
+    #wpmc-back-to-cart {
+      display: none;
+    }
+  }
+}

@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a408629-bfd6-4646-a323-a4fe5e6786d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/images/src/firstslide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/src/refer_a_friend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/header1441.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/header576.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/headr1200.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/angle-down-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/checkout/checkout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/checkout/checkout991.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/header/header991.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/sproduct/sproduct.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_config.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/dest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\OSPanel\domains\azene.verstka\app\images\src" />
       <recent name="E:\OSPanel\domains\azene.verstka\app\images\dest" />
+      <recent name="E:\OSPanel\domains\azene.verstka\app\images\src" />
       <recent name="E:\OSPanel\domains\azene.verstka\app\js" />
     </key>
   </component>
@@ -146,7 +149,27 @@
       <workItem from="1613980105226" duration="668000" />
       <workItem from="1614010053954" duration="884000" />
       <workItem from="1614084602751" duration="5924000" />
-      <workItem from="1614106435425" duration="721000" />
+      <workItem from="1614106435425" duration="1276000" />
+      <workItem from="1614148884275" duration="2936000" />
+      <workItem from="1614166810210" duration="10887000" />
+      <workItem from="1614194778061" duration="21000" />
+      <workItem from="1614234882352" duration="1085000" />
+      <workItem from="1614252278344" duration="5372000" />
+      <workItem from="1614325913661" duration="4872000" />
+      <workItem from="1614345388092" duration="5278000" />
+      <workItem from="1614582509853" duration="1465000" />
+      <workItem from="1614687467464" duration="1289000" />
+      <workItem from="1614700740361" duration="3626000" />
+      <workItem from="1614763753277" duration="7000" />
+      <workItem from="1614763976189" duration="722000" />
+      <workItem from="1614772137961" duration="1127000" />
+      <workItem from="1614848301271" duration="4010000" />
+      <workItem from="1614937597022" duration="6753000" />
+      <workItem from="1615275315816" duration="1968000" />
+      <workItem from="1615367010117" duration="606000" />
+      <workItem from="1615378722822" duration="3609000" />
+      <workItem from="1615403308667" duration="1281000" />
+      <workItem from="1615466134292" duration="4584000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608566724909</created>
@@ -183,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613669130734</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change structure of css for header">
+      <created>1614110298510</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614110298510</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +240,7 @@
     <MESSAGE value="make layout closer to real site, update css and js" />
     <MESSAGE value="update styles" />
     <MESSAGE value="Update css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update css" />
+    <MESSAGE value="change structure of css for header" />
+    <option name="LAST_COMMIT_MESSAGE" value="change structure of css for header" />
   </component>
 </project>
